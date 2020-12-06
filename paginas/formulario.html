@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <link rel="stylesheet" href="../Pcss/formulario.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contato</title>
+</head>
+<body>
+    <a href="../index.html">Voltar</a>
+    <div id="titulo">
+        <h1>Formulário de Contato</h1>
+    </div>
+    <div id="form">
+        <form action="#" method="POST"  id="formulario" name="formulario">
+            Nome: <input type="text" id="nome" name="nome" placeholder="Digite seu Nome" required><br>
+            Telefone <input type="tel" name="telefone" id="telefone" placeholder="Digite seu nome" required><br>
+            Email: <input type="email" name="email" id="email" placeholder="Digite seu Email" required><br>
+            Motivo de Contato: <select name="selectMotivo" id="selectMotivo">
+                <option value="#">Selecione</option>
+                <option value="Trabalho">Trabalho</option>
+                <option value="Duvida">Duvida</option>
+                <option value="ajuda">Ajuda</option>
+                <option value="cobrança">Agiota</option>
+            </select><br>
+            Comentários: <br>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Digite algo..."></textarea><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </form>
+    </div>
+</body>
+</html>

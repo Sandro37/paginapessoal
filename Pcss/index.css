@@ -1,0 +1,47 @@
+*{
+    font-family: Arial;
+}
+#menu nav ul li{
+    display: inline;
+    vertical-align: top;
+}
+img{
+    width: 200px;
+}
+.image-foto{
+    display: inline-block;
+    width: 200px;
+}
+.texto{
+    display: inline-block;
+    width: 800px;
+    vertical-align: top;
+}
+a:hover{
+    background-color: rgb(236,228,228); 
+}
+hr{
+    width: 100%;
+}
+.informacao{
+    background: black;
+    text-align: center;
+    color: white;
+    border: 5px solid black;
+}
+.contact{
+    width: 10%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+td{
+    background-color: rgb(151, 151, 151);
+}
+.tituloTabela{
+    font-weight: bold;
+    background-color: rgb(94, 94, 94);
+}
